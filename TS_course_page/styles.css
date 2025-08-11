@@ -1,0 +1,67 @@
+body{
+    margin: 4rem;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.hero2{
+    display: none;
+}
+
+.text{
+    margin-top: 2rem;
+  font-size: 1.8rem;
+}
+.vector{
+    width: 100%;
+}
+.subjects{
+    margin-top:2rem ;
+}
+.subjects2{
+    display: none;
+}
+.combo{
+    margin-top: 2rem;
+}
+.combo2{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    .hero1{
+        display: none;
+    }
+    .hero2{
+        display: block;
+        padding: 2rem;
+    }
+    .subjects{
+        display: none;
+    }
+    .subjects2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .subjects2 img{
+       padding: 1rem;
+    }
+    .combo{
+        display: none;
+    }
+    .combo2{
+        display: flex;
+        flex-direction: column;
+    }
+    .combo2 img{
+        padding: 1rem;
+    }
+    
+}

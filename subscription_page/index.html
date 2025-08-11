@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutStar Subscription</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="main-container">
+
+        <!-- Left Image Section (Desktop Only) -->
+        <div class="image-section">
+            <!-- Replace with your actual image file path -->
+            <img src="assets/Rectangle 61.png" alt="Happy student" class="student-image">
+        </div>
+
+        <!-- Right Subscription Card Section -->
+        <div class="subscription-card">
+
+            <!-- Card Header -->
+            <div class="card-header">
+                <h4>Subscription Price</h4>
+                
+            </div>
+            
+            <!-- Subscription Options -->
+            <div class="subscription-options">
+                
+                <!-- Option 1: 1 Month -->
+                <label class="option-card option-card-pink">
+                    <input type="radio" name="subscription-plan" value="1-month">
+                    <span class="custom-radio">
+                        <svg class="checkmark-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                    </span>
+                    <div class="option-details">
+                        <span class="save-badge">Save 5%</span>
+                        <span class="duration">1 Month</span>
+                    </div>
+                    <span class="price">Total ₹500</span>
+                </label>
+
+                <!-- Option 2: 3 Months -->
+                <label class="option-card option-card-pink">
+                    <input type="radio" name="subscription-plan" value="3-months">
+                    <span class="custom-radio">
+                        <svg class="checkmark-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                    </span>
+                    <div class="option-details">
+                        <span class="save-badge">Save 10%</span>
+                        <span class="duration">3 Months</span>
+                    </div>
+                    <span class="price">Total ₹2,000</span>
+                </label>
+
+                <!-- Option 3: 4 Months (Selected) -->
+                <label class="option-card option-card-active">
+                    <input type="radio" name="subscription-plan" value="4-months" checked>
+                    <span class="custom-radio">
+                        <svg class="checkmark-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                    </span>
+                    <div class="option-details">
+                        <span class="save-badge">Save 15%</span>
+                        <span class="duration">4 Months</span>
+                        <span class="sub-text">4 x ₹500 = ₹2000</span>
+                    </div>
+                    <span class="price">Total ₹1,700</span>
+                </label>
+
+                <!-- Option 4: 12 Months -->
+                <label class="option-card option-card-orange">
+                    <input type="radio" name="subscription-plan" value="12-months">
+                    <span class="custom-radio">
+                        <svg class="checkmark-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                    </span>
+                    <div class="option-details">
+                        <span class="save-badge">Save 10%</span>
+                        <span class="duration">12 Months</span>
+                    </div>
+                    <span class="price">Total ₹5,500</span>
+                </label>
+            </div>
+
+            <!-- Pricing Summary -->
+            <div class="pricing-summary">
+                <div class="summary-row">
+                    <span>Fees</span>
+                    <span>₹2,000</span>
+                </div>
+                <div class="summary-row">
+                    <span>Discount</span>
+                    <span class="discount-value">-₹300</span>
+                </div>
+                <div class="summary-row">
+                    <span>Practice sets</span>
+                    <span>₹0</span>
+                </div>
+                <div class="summary-row total-row">
+                    <span>Total</span>
+                    <span>₹1,700</span>
+                </div>
+            </div>
+
+            <!-- Savings Message -->
+            <div class="savings-message">
+                <p>You'll save ₹300 on this!</p>
+            </div>
+
+            <!-- Call to Action Button -->
+            <button class="cta-button">Buy Now</button>
+
+            <!-- Disclaimer -->
+            <p class="disclaimer-text">
+                Tips: Payment not refundable.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>

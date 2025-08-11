@@ -73,9 +73,14 @@ a:hover {
 }
 
 .call-btn{
+    
     background: orange;
     color: #fff;
 }
+.call-btn a{
+    text-decoration: none;
+}
+
 .login-btn{
     background: purple;
     color: #fff;
